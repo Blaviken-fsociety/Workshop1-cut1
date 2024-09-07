@@ -76,7 +76,7 @@ body {
     height: 48px;
     background-color: #3F3434;
     border: none;
-    border-radius: 8px;
+    border-radius: 8px 0px 0px 0px;
     color: #FFFFFF;
     font-size: 16px;
     font-weight: 600;
@@ -89,42 +89,73 @@ body {
     height: 450px;
 }
 
+/* Companies Section */
+.companies {
+    width: 915px;
+    height: 86px;
+    margin: 0 auto;
+    padding-top: 25px;
+    position: relative;
+    background-color: #857978;
+    border-radius: 8px;
+}
+
+.trusted-text {
+    width: 227px;
+    height: 16px;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 16px;
+    color: #667085;
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.logo-container {
+    width: 867px;
+    height: 38px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.company-logo {
+    height: 38px;
+    /* Si los logos tienen anchos específicos, puedes ajustarlo aquí para cada logo */
+}
+
 /* Responsive Design */
 @media (max-width: 1440px) {
-    .navbar, .hero {
+    .navbar, .hero, .companies {
         width: 100%;
         padding: 0 20px;
     }
 
-    .logo h1 {
-        font-size: 18px;
-    }
-
-    .nav-links a {
-        font-size: 16px;
-    }
-
-    .hero-content h1 {
-        font-size: 48px;
-    }
-
-    .hero-content p {
-        font-size: 16px;
+    .logo-container {
+        width: 100%;
+        padding: 0 10px;
     }
 }
 
 @media (max-width: 768px) {
-    .hero {
+    .companies {
         flex-direction: column;
         text-align: center;
     }
 
-    .hero-image img {
-        width: 100%;
-        height: auto;
+    .logo-container {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
     }
 
-    .btn-cta {
-        margin: 0 auto;
+    .trusted-text {
+        margin-bottom: 20px;
     }
 }
