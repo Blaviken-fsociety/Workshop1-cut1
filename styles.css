@@ -76,7 +76,7 @@ body {
     height: 48px;
     background-color: #3F3434;
     border: none;
-    border-radius: 8px 0px 0px 0px;
+    border-radius: 8px;
     color: #FFFFFF;
     font-size: 16px;
     font-weight: 600;
@@ -87,6 +87,7 @@ body {
 .hero-image img {
     width: 450px;
     height: 450px;
+    border: 1px solid #000000;
 }
 
 /* Companies Section */
@@ -128,6 +129,54 @@ body {
 .company-logo {
     height: 38px;
     /* Si los logos tienen anchos específicos, puedes ajustarlo aquí para cada logo */
+}
+
+/* Branding Section */
+.branding {
+    width: 1065px;
+    height: 450px;
+    margin: 171px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px; /* Ajusta el espaciado superior */
+}
+
+.branding-image {
+    width: 450px;
+    height: 450px;
+    /* Ajuste para que la imagen mantenga su tamaño y proporciones */
+}
+
+.branding-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Mantiene la proporción de la imagen */
+}
+
+.branding-content {
+    width: 435.69px;
+    height: 102.35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.branding-content h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.branding-content p {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.5px;
+    color: #FFFFFF;
 }
 
 /* Responsive Design */
