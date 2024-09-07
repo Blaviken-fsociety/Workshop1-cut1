@@ -76,7 +76,7 @@ body {
     height: 48px;
     background-color: #3F3434;
     border: none;
-    border-radius: 8px 0px 0px 0px;
+    border-radius: 8px;
     color: #FFFFFF;
     font-size: 16px;
     font-weight: 600;
@@ -87,6 +87,7 @@ body {
 .hero-image img {
     width: 450px;
     height: 450px;
+    border: 1px solid #000000;
 }
 
 /* Companies Section */
@@ -128,6 +129,304 @@ body {
 .company-logo {
     height: 38px;
     /* Si los logos tienen anchos específicos, puedes ajustarlo aquí para cada logo */
+}
+
+/* Branding Section */
+.branding {
+    width: 1065px;
+    height: 450px;
+    margin: 171px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px; /* Ajusta el espaciado superior */
+}
+
+.branding-image {
+    width: 450px;
+    height: 450px;
+    /* Ajuste para que la imagen mantenga su tamaño y proporciones */
+}
+
+.branding-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Mantiene la proporción de la imagen */
+}
+
+.branding-content {
+    width: 435.69px;
+    height: 102.35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.branding-content h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.branding-content p {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.5px;
+    color: #FFFFFF;
+}
+
+/* Custom Section */
+.custom-section-container {
+    margin: 100px 206px 50px 206px; /* Centrado */
+    text-align: center;
+}
+
+.custom-section-title {
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #FFFFFF;
+    margin-bottom: 188px; /* Espacio inferior del título */
+}
+
+/* Flex container para los tres rectángulos */
+.custom-section {
+    width: 1052px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto; /* Centrado horizontal */
+}
+
+/* Rectángulo general */
+.custom-rectangle {
+    width: 308px;
+    height: 191.1px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    align-items: flex-start; /* Todo alineado a la izquierda */
+}
+
+.custom-image {
+    width: 30px;
+    height: 29.86px;
+}
+
+.custom-square {
+    width: 52px;
+    height: 47.78px;
+    border-radius: 10px;
+    background-color: #FFDED4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-square2 {
+    width: 52px;
+    height: 47.78px;
+    border-radius: 10px;
+    background-color: #F3DEC2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-square3 {
+    width: 52px;
+    height: 47.78px;
+    border-radius: 10px;
+    background-color: #CFDCED;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-title {
+    font-family: 'Hind Vadodara', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21.97px;
+    letter-spacing: 0.055em;
+    text-align: left;
+    color: #331B3B;
+}
+
+.custom-text {
+    font-family: 'Hind Vadodara', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21.79px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #331B3BA8;
+}
+
+/* Contact Section */
+.contact-section {
+    width: 1065px;
+    height: 450.43px;
+    margin: 0px auto 20px auto;
+    display: flex;
+    justify-content: space-between; /* Distribuye el espacio entre la imagen y el contenido */
+    align-items: flex-start; /* Alinea los elementos al principio del contenedor */
+    background-color: #ADA7A7;
+    border-radius: 20px;
+    padding: 20px; /* Añade un poco de padding para que los elementos no queden pegados a los bordes */
+}
+
+.contact-image {
+    width: 450px;
+    height: 450.43px;
+}
+
+.contact-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contact-content {
+    width: calc(100% - 450px); /* Asegura que el contenido ocupe el espacio restante */
+    padding: 80px; /* Espaciado interno */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Alinea verticalmente el contenido */
+}
+
+.contact-title {
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #FFFFFF;
+    margin-bottom: 20px; /* Espacio inferior del título */
+}
+
+.contact-description {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.5px;
+    color: #FFFFFF;
+    margin-bottom: 30px; /* Espacio inferior de la descripción */
+}
+
+.contact-button {
+    width: 167px;
+    height: 48.05px;
+    background-color: #A31717;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 27.5px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Footer */
+.footer {
+    background-color: #857978;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+    color: #FFFFFF;
+}
+
+/* Logo Section */
+.footer-logo {
+    width: 189.29px;
+    height: 114px;
+}
+
+.footer-logo-title {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27.5px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.footer-logo-subtitle {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+/* Resources Section */
+.footer-resources {
+    width: 141px;
+    height: 194px;
+}
+
+.footer-section-title {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27.5px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-link {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 16px;
+    text-align: left;
+    color: #FFFFFF;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 8px;
+}
+
+/* Company Section */
+.footer-company {
+    width: 85.23px;
+    height: 194px;
+}
+
+/* Social Media Section */
+.footer-social {
+    width: 123.19px;
+    height: 194px;
+}
+
+.footer-social .footer-link {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 16px;
+    text-align: left;
+    color: #FFFFFF;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 8px;
 }
 
 /* Responsive Design */
