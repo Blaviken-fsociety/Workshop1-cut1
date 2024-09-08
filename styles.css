@@ -181,7 +181,7 @@ body {
 
 /* Custom Section */
 .custom-section-container {
-    margin: 100px 206px 50px 206px; /* Centrado */
+    margin: 100px auto 50px auto; /* Centrado */
     text-align: center;
 }
 
@@ -342,10 +342,14 @@ body {
 /* Footer */
 .footer {
     background-color: #857978;
-    display: flex;
-    justify-content: space-evenly;
     padding: 40px;
     color: #FFFFFF;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px 206px auto;
 }
 
 /* Logo Section */
@@ -432,7 +436,6 @@ body {
 /* Responsive Design */
 @media (max-width: 1440px) {
     .navbar, .hero, .companies {
-        width: 100%;
         padding: 0 20px;
     }
 
