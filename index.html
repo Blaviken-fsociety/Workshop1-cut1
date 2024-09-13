@@ -4,45 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page - Digital Agency</title>
+    <link rel="stylesheet" href="normalice.css">
     <link rel="stylesheet" href="styles.css">
+    
 </head>
 <body>
-    <header>
-        <nav class="navbar">
-            <div class="logo">
-                <h1>DIGITAL AGENCY</h1>
-            </div>
+    <header class="container">
+        <nav>
+            <div class="logo">DIGITAL AGENCY</div>
             <div class="hamburger">
                 <img src="img/hamburger.PNG">
-            </div>                        
-            <ul class="nav-links" id="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Testimonials</a></li>
-                <li><a href="#">Contact</a></li>
+            </div>
+            <ul class="menu">
+                <li><a href="#">home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">testimonials</a></li>
+                <li><a href="#">contact</a></li>
             </ul>
         </nav>
     </header>
 
+    <main class= "container">
+    
     <!-- Hero Section -->
     <section class="hero">
         <div class="hero-content">
-            <h1>Building digital products, brands & experience</h1>
-            <p>Digital Agency is your online team management tool that is easy and prompt</p>
-            <button class="btn-cta">Contact Us</button>
+            <h1>Building Digital Products, Brands & Experience</h1>
+            <p>Digital Agency is Your Online Team Management Tool That Is Easy And Prompt</p>
+            <button class="btn-contact btn-cta">Contact Us</button>
         </div>
         <div class="hero-image">
             <img src="img/business-people-discussing-business-idea-1.png" alt="Business People Discussing Ideas">
         </div>
     </section>
-
+    
+    
     <!-- Companies Section -->
     <section class="companies">
-        <div class="companies-image">
-            <img src="img/Companies Section-1.png">
-        </div>
-        <p class="trusted-text">Trusted by 4,000+ companies</p>
-        <div class="logo-container">
+        <p class="companies__text">Trusted by 4,000+ companies</p>
+        <div class="companies__logo">
             <img src="img/Company logo.png" alt="Company Logo" class="company-logo">
             <img src="img/Company logo-1.png" alt="Company Logo 1" class="company-logo">
             <img src="img/Company logo-2.png" alt="Company Logo 2" class="company-logo">
@@ -52,99 +52,93 @@
     
     <!-- Branding Section -->
     <section class="branding">
-        <div class="branding-image">
+        <div class="branding__image">
             <img src="img/designer-team-working-on-creative-design.png" alt="Designer Team Working on Creative Design">
         </div>
-        <div class="branding-content">
+        <div class="branding__content">
             <h2>Branding & Design system</h2>
-            <p>Commonly Used In The Graphic, Print & Publishing Industris For Previewing Visual Layout And<br>Mockups</p>
+            <p>Commonly Used In The Graphic, Print & Publishing<br> Industris For Previewing Visual Layout And<br> Mockups</p>
+        </div>
+    </section>
+    
+     <!-- Custom Section  -->
+    <section class="custom-section-container">
+            <h2 class="custom__section-title">Custome & Plugin Development</h2>
+                <p class="custom__text768">Lorem ipsum dolor sit amet consectetur, ptatem eius nobis</p>
+        <div class="custom-section">
+            <div class="custom-rectangle">
+                <img class="custom-square custom-square-rojo "  src="img/website-4943 1.png" alt="Logo1" class="custom-image">
+                <h3>WEBSITE DESIGN</h3>
+                <p class="custom-text">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            </div>
+ 
+            <div class="custom-rectangle">
+                <img class="custom-square custom-square-amarillo" src="img/computer-6823 1.png" alt="Logo2" class="custom-image">
+                <h3>WEB DEVELOPMENT</h3>
+                <p class="custom-text">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            </div>
+            <div class="custom-rectangle">
+                <img class="custom-square custom-square-azul" src="img/mobile-phone-1164 1.png" alt="Logo3" class="custom-image">
+                <h3>MOBILE APP DEVELOPMENT</h3>
+                <p class="custom-text">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            </div>
         </div>
     </section>
 
-    <!-- Custom Section -->
-    <div class="custom-section-container">
-        <h2 class="custom-section-title">Custome & Plugin Development</h2>
-        <p class="custom-section-p">Commonly used in the graphic, print & publishing industris for previewing visual layout and mockups</p>
-        <section class="custom-section">
-            <!-- Rectángulo 1 -->
-            <div class="custom-rectangle">
-                <div class="custom-square">
-                    <img src="img/website-4943 1.png" alt="Logo1" class="custom-image">
-                </div>
-                <h3 class="custom-title">Website Design</h3>
-                <p class="custom-text">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-            </div>
+    
+    <section class="big_thing">
+        <h2>Be a part of the next big thing</h2>
+        <p>We work with Brans, Startups, to SMEs. <br>Colaborate for more impact and growt</p>
+        <button class="btn-cta">CONTACT US</button>
 
-            <!-- Rectángulo 2 -->
-            <div class="custom-rectangle">
-                <div class="custom-square2">
-                    <img src="img/computer-6823 1.png" alt="Logo2" class="custom-image">
-                </div>
-                <h3 class="custom-title">Web Development</h3>
-                <p class="custom-text">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-            </div>
-
-            <!-- Rectángulo 3 -->
-            <div class="custom-rectangle">
-                <div class="custom-square3">
-                    <img src="img/mobile-phone-1164 1.png" alt="Logo3" class="custom-image">
-                </div>
-                <h3 class="custom-title">Mobile APP Development</h3>
-                <p class="custom-text">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-            </div>
-        </section>
-    </div>
+    </section>
 
     <section class="contact-section" >
         <div class="contact-image">
             <img src="img/customer-support.png" alt="Customer Support">
         </div>
         <div class="contact-content">
-            <h2 class="contact-title">Be a part of the next big thing</h2>
-            <p class="contact-description">We work with Brands, Startups, to SMEs. Collaborate for more impact and growth.</p>
-            <button class="contact-button">Contact Us</button>
+            <h2 class="contact-title">Be a part of the<br> next big thing</h2>
+            <p class="contact-description">We work with Brands, Startups, to SMEs.<br> Collaborate for more impact and growth.</p>
+            <button class="btn-cta btn-cta--rojo">Contact Us</button>
         </div>
-    </section>    
-
+    </section>
+    </main>
     <footer class="footer">
-        <div class="footer-content">
-            <div class="footer-logo">
-                <h1 class="footer-logo-title">Digital Agency</h1>
-                <p class="footer-logo-subtitle">Building digital products, brands & experience</p>
+            <div class="footer-info">
+                <h3 class="foter--blanco footer-section-title">Digital Agency</h1>
+                <p class="footer-logo-subtitle">Building digital products,<br> brands & experience</p>
             </div>
         
-            <div class="footer-resources">
-                <h3 class="footer-section-title">Resources</h3>
+            <div class="footer-info">
+                <h3 class="foter--blanco footer-section-title">Resources</h3>
                 <ul class="footer-links">
-                    <li><a href="#" class="footer-link">Glossary</a></li>
-                    <li><a href="#" class="footer-link">Custom Stories</a></li>
-                    <li><a href="#" class="footer-link">Blog</a></li>
                     <li><a href="#" class="footer-link">Guides</a></li>
+                    <li><a href="#" class="footer-link">Blog</a></li>
+                    <li><a href="#" class="footer-link">Cuistomer Stories</a></li>
+                    <li><a href="#" class="footer-link">Glossery</a></li>
                 </ul>
             </div>
         
-            <div class="footer-company">
-                <h3 class="footer-section-title">Company</h3>
+            <div class="footer-info">
+                <h3 class="foter--blanco footer-section-title">Company</h3>
                 <ul class="footer-links">
-                    <li><a href="#" class="footer-link">Contact Us</a></li>
-                    <li><a href="#" class="footer-link">Partners</a></li>
-                    <li><a href="#" class="footer-link">Careers</a></li>
                     <li><a href="#" class="footer-link">About Us</a></li>
+                    <li><a href="#" class="footer-link">Careers</a></li>
+                    <li><a href="#" class="footer-link">Partners</a></li>
+                    <li><a href="#" class="footer-link">Contact Us</a></li>
                 </ul>
             </div>
         
-            <div class="footer-social">
-                <h3 class="footer-section-title">Social Media</h3>
+            <div class="footer-info">
+                <h3 class="foter--blanco footer-section-title">Social Media</h3>
                 <ul class="footer-links">
-                    <li><a href="#" class="footer-link">Twitter</a></li>
-                    <li><a href="#" class="footer-link">Instagram</a></li>
-                    <li><a href="#" class="footer-link">Facebook</a></li>
                     <li><a href="#" class="footer-link">LinkedIn</a></li>
+                    <li><a href="#" class="footer-link">Facebook</a></li>
+                    <li><a href="#" class="footer-link">Instagram</a></li>
+                    <li><a href="#" class="footer-link">Twitter</a></li>
                 </ul>
             </div>
         </div>
-        
-    </footer>
-    
 </body>
 </html>
